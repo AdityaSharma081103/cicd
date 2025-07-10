@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Pull Code') {
             steps {
-                git 'https://github.com/AdityaSharma081103/cicd'
+                 git branch: 'main', url: 'https://github.com/AdityaSharma081103/cicd.git'
             }
         }
 
