@@ -1,1 +1,2 @@
 runtime: nodejs20
+service_account: jenkins@jenkins-cicd-demo-465510.iam.gserviceaccount.com
