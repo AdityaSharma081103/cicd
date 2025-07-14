@@ -19,6 +19,8 @@ jobs:
           node-version: '20'  # You can change this to your required version
 
       - name: Install dependencies
+        run: npm install
+      - name: Install ci
         run: npm ci
 
       - name: Run build (if applicable)
