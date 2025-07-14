@@ -35,8 +35,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
       #- name: app create
         #run: gcloud app create --project=${{ secrets.GCP_PROJECT_ID }}  --region=asia-south1
-      - name: repair
-        run: gcloud beta app repair --quiet
+     
       
       - name: Deploy to App Engine
         run: gcloud app deploy app.yaml --quiet --project=${{ secrets.GCP_PROJECT_ID }}
